@@ -1,5 +1,5 @@
 # 🌕 Embedded Speech Command Recognition for Moon Lamp Switching  
-**CASA0018 Final Project — Yue Zhu**
+
 
 ## 1. Project Overview
 
@@ -10,6 +10,7 @@ The motivation stems from the need for contactless, accessible lighting control 
 
 Traditional lighting systems often require physical interaction, which can be inconvenient or inaccessible for elderly users, people with disabilities, or during nighttime scenarios.  
 By enabling voice control using lightweight, embedded machine learning models, this project demonstrates a more natural and user-friendly way to interact with smart home devices, while addressing challenges such as device resource constraints, noise robustness, and low-latency responses.
+
 
 ## 3. System Design
 
@@ -33,6 +34,7 @@ The Arduino's 3.3V output controls a 5V relay using a transistor amplification c
 
 The Arduino device runs the model locally and continuously listens for "on" and "off" commands to switch the lamp.
 
+
 ## 4. Data Collection and Model Training
 
 - **Data Volume**: ~400 audio samples (commands: "on", "off", and environmental noise)
@@ -50,6 +52,7 @@ Final model achieved:
 - **AUC**: 0.97
 
 ![Training Diagram](training.png)
+
 
 ## 5. Experimental Results
 
